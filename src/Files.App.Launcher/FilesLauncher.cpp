@@ -183,6 +183,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 			{
 				std::wcout << L"Protocol error: " << GetLastError() << std::endl;
 				return false;
+				
 			}
 
 			if (waitForActivation)
