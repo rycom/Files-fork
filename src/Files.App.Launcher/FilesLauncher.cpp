@@ -104,6 +104,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 			fclose(_debugStream);
 
 		return 0;
+		return 1;
 	}
 
 	if (withArgs)
